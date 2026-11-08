@@ -27,6 +27,3 @@ npm run build      # production-сборка в dist/
 Workflow `.github/workflows/deploy.yml` собирает проект с `BASE_PATH=/<имя-репозитория>/` и публикует `dist`.
 В репозитории: Settings → Pages → Source: GitHub Actions, затем push в `main`.
 Для ручной сборки: `BASE_PATH=/my-repo/ npm run build`.
-
-## Использование AI
-Проект целиком (дизайн, код, тесты) создан с помощью Claude Code. Сценарии проверялись браузерным прогоном в Chrome через Playwright.
